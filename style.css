@@ -1,4 +1,3 @@
-
 * {
     padding: 0;
     margin: 0;
@@ -27,9 +26,9 @@
 }
 
 
-.container2{
+.container2 {
 
-background-color: #1e293b;
+    background-color: #1e293b;
     height: 100vh;
     width: 100vw;
     padding: 10px;
@@ -44,29 +43,31 @@ background-color: #1e293b;
 
 
 
-body{
+body {
     background-color: var(--dark1);
     background-size: 400%;
     height: 100vh;
     font-family: 'Lato';
-    }
+    margin-bottom: 30px;
+}
 
 
-    .main {
-        display: flex;
-        flex-direction: row;
-        border: 1px solid slateblue;
-        justify-content: left;
-        align-items: center;
-        justify-content: center;
-        align-items:space-around;
-        padding: -5px;
-        }
+.main {
+    display: flex;
+    flex-direction: row;
+
+    border: 1px;
+    justify-content: left;
+    align-items: center;
+    justify-content: center;
+    align-items: space-around;
+    padding: -5px;
+}
 
 
 h1 {
- display: flex;
-     color: var(--dark1);
+    display: flex;
+    color: var(--dark1);
     padding-bottom: 10px;
     justify-content: center;
     font-size: 3rem;
@@ -74,25 +75,25 @@ h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     background-color: #e8e6d9;
-   
-   
+
+
 }
 
 
 
-.container4{
+.container4 {
     display: flex;
     flex-direction: row;
     padding: bottom 70px;
-    background-color:var(--dark1);
-    
+    background-color: var(--dark1);
+
 
 
 }
 
 
 h2 {
-    display:grid;
+    display: grid;
     flex-direction: row;
     margin: 0;
     padding: 0;
@@ -102,10 +103,10 @@ h2 {
 
 
 img {
- 
+
     width: 540px;
-       max-height: 480px;
-  
+    max-height: 480px;
+
 }
 
 
@@ -114,6 +115,8 @@ img {
     padding: 0;
     margin: 0;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
     background-color: #e8e6d9;
@@ -130,10 +133,10 @@ img {
     margin: 1rem;
     display: block;
     border-radius: 5%;
-    background: #333;
+    background: #3d3c3c;
     color: #fff;
     text-shadow: 0px 0px 5px #efeb02;
-   
+
 }
 
 #menu li a:hover {
@@ -153,19 +156,19 @@ img {
     color: var(--white);
     font-size: x-large;
     font-family: "Poppins", sans-serif;
-     display: block;
-     min-height: 300px;
+    display: block;
+    min-height: 300px;
     min-width: 200px;
     border: 1px solid var(--dark1);
     row-gap: 10px;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     margin-right: 1rem;
     margin-left: 2rem;
-    margin-top:  5px;
-   
+    margin-top: 5px;
+
 }
 
 
@@ -173,17 +176,17 @@ img {
 
 p {
     color: var(--white);
-    font-size:x-large;
+    font-size: x-large;
     font-family: "Poppins", sans-serif;
-     display: block;
-     min-height: 50px;
+    display: block;
+    min-height: 50px;
     min-width: 50px;
     flex-wrap: wrap;
     margin-right: 1rem;
     margin-left: 2rem;
-   /* padding-top: 2rem;*/
+    padding-bottom: 10px;
 
-   }
+}
 
 
 
@@ -195,31 +198,31 @@ li {
     font-style: normal;
     padding-bottom: 0.5rem;
     margin-left: 4rem;
-    
+
 
 }
 
 
 #h2_classificada {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
-align-items: center;
+    align-items: center;
     padding: 20px;
 
-   color: var(--white);
-   font-size: xx-large;
-   font-family: "Poppins", sans-serif;
-   gap: 70px;
-   
+    color: var(--white);
+    font-size: xx-large;
+    font-family: "Poppins", sans-serif;
+    gap: 70px;
+
 }
 
 .espaco {
     padding: 50px;
 }
 
-#section2{
+#section2 {
     display: flex;
     margin-bottom: 10rem;
     font-size: x-large;
@@ -239,7 +242,7 @@ align-items: center;
     margin-bottom: 7rem;
     font-size: x-large;
     font-family: "Poppins", sans-serif;
-  
+
 }
 
 .adolescente {
@@ -248,10 +251,10 @@ align-items: center;
 
 }
 
-.estpremiado{
-  
+.estpremiado {
+
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -259,3 +262,10 @@ align-items: center;
 
 }
 
+.espacobaixo {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 100px;
+}
