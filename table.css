@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --white: #fff;
+    --dark1: #34344e;
+    --dark2: #3a415a;
+    --dark3: #566981;
+    --dark4: #89a7b1;
+    --dark5: #cbdad5;
+    --cyan1: #70e3ea;
+
+}
+
+
+
+.green {
+    background-color: #008000;
+}
+
+.yellow {
+    background-color: #c9c96c;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+
+
+h2 {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-top: 10px;
+    color: var(--white);
+}
+
+
+.table {
+ 
+    width: 60%;              /* Ajusta a largura da tabela para ocupar todo o espaço disponível */
+      border-collapse: collapse; /* Remove espaços entre as bordas */
+      margin: 20px 10px 20px 40px;            /* Espaçamento ao redor da tabela */
+      font-family: Arial, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 12rem;
+      
+}
+
+
+.table2 {
+ 
+    width: 60%;              /* Ajusta a largura da tabela para ocupar todo o espaço disponível */
+      border-collapse: collapse; /* Remove espaços entre as bordas */
+      margin: 20px 10px 20px 40px;            /* Espaçamento ao redor da tabela */
+      font-family: Arial, sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 12rem;
+      
+}
+
+.table2 th, td {
+    border: 1px solid #ddd;    /* Bordas finas e leves ao redor das células */
+    padding: 12px;             /* Espaçamento interno das células */
+    text-align: center;          /* Alinhamento do texto para a esquerda */
+    color:var(--white);
+    
+
+}
+
+
+
+th, td {
+    border: 1px solid #ddd;    /* Bordas finas e leves ao redor das células */
+    padding: 12px;             /* Espaçamento interno das células */
+    text-align: center;          /* Alinhamento do texto para a esquerda */
+    color:var(--white);
+  }
+
+
+ .firstline {
+    font-size:x-large;
+ }
